@@ -222,7 +222,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Provide some data-model method for NSArray.
  */
-@interface NSArray (YYModel)
+// @interface NSArray (YYModel)
 
 /**
  Creates and returns an array from a json-array.
@@ -234,16 +234,16 @@ NS_ASSUME_NONNULL_BEGIN
  
  @return A array, or nil if an error occurs.
  */
-+ (nullable NSArray *)modelArrayWithClass:(Class)cls json:(id)json;
+// + (nullable NSArray *)modelArrayWithClass:(Class)cls json:(id)json;
 
-@end
+// @end
 
 
 
 /**
  Provide some data-model method for NSDictionary.
  */
-@interface NSDictionary (YYModel)
+// @interface NSDictionary (YYModel)
 
 /**
  Creates and returns a dictionary from a json.
@@ -255,8 +255,8 @@ NS_ASSUME_NONNULL_BEGIN
  
  @return A dictionary, or nil if an error occurs.
  */
-+ (nullable NSDictionary *)modelDictionaryWithClass:(Class)cls json:(id)json;
-@end
+// + (nullable NSDictionary *)modelDictionaryWithClass:(Class)cls json:(id)json;
+// @end
 
 
 
